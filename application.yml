@@ -8,10 +8,10 @@ spring:
 spring:
   profiles: dev
   application:
-    name: dev-service
+    name: dev-service-dev
 
 ---
 spring:
   profiles: test
   application:
-    name: test-service   
+    name: test-service-test 
