@@ -11,7 +11,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: provide-data-dev #入驻eureka的服务名称
+    name: projectB-provide-data-dev #入驻eureka的服务名称
 
 eureka:
   client:
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: test
   application:
-    name: provide-data-test #入驻eureka的服务名称
+    name: projectB-provide-data-test #入驻eureka的服务名称
 
 eureka:
   client:
