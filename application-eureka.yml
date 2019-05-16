@@ -11,7 +11,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: dureka-dev
+    name: eureka-dev
 
 
 # eureka:
@@ -29,7 +29,7 @@ server:
 spring:
   profiles: test
   application:
-    name: dureka-dev
+    name: eureka-test
 
 
 # eureka:
