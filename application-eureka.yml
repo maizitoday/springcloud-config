@@ -14,12 +14,12 @@ spring:
     name: eureka-dev
 
 
-# eureka:
-#   instance:
-#     hostname: eureka5001.com #eureka服务端的实例名称, 我这边做了host映射
-#   client:  #声明自己是服务端
-#     register-with-eureka: false  #false表示不向注册中心注册自己。
-#     fetch-registry: false
+eureka:
+  instance:
+    hostname: eureka5001.com #eureka服务端的实例名称, 我这边做了host映射
+  client:  #声明自己是服务端
+    register-with-eureka: false  #false表示不向注册中心注册自己。
+    fetch-registry: false
 
  
 ---
@@ -32,9 +32,9 @@ spring:
     name: eureka-test
 
 
-# eureka:
-#   instance:
-#     hostname: eureka5002.com #eureka服务端的实例名称, 我这边做了host映射
-#   client:  #声明自己是服务端
-#     register-with-eureka: false  #false表示不向注册中心注册自己。
-#     fetch-registry: false
+eureka:
+  instance:
+    hostname: eureka5002.com #eureka服务端的实例名称, 我这边做了host映射
+  client:  #声明自己是服务端
+    register-with-eureka: false  #false表示不向注册中心注册自己。
+    fetch-registry: false
